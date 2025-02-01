@@ -1,0 +1,93 @@
+/* estilos generales */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* encabezado */
+encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3e608d; /*color fondo*/
+    color: white;
+    padding: 0px 0px; /*largo y ancho del encabezado */
+}
+/*encabezado imagen*/
+encabezado img {
+	height: 60px;
+}
+encabezado h1{
+	margin: 0;
+    font-size: 30px;
+	text-align: center;
+}
+
+
+/* enlaces */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    margin-right: 16px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* cuerpo principal */
+main {
+    padding: 20px;
+    background-color: #f4f4f4;
+    min-height: 300px;
+}
+main h2 {
+    margin-top: 0;
+	text-align: center;
+}
+main h3 {
+    margin-top: 0;
+	background-color: #3e608d;
+	color: white;
+	padding: 10px 0px;
+}
+main h4 {
+    margin-top: 0;
+	background-color: #333;
+	color: white;
+	padding: 10px 0px;
+}
+
+/* pie de pagina */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.boton {
+	text-align: center;
+	display: block;
+	margin: auto;
+}
+.boton:hover {
+    background-color: #3498db; /* Cambia color cuando el mouse pasa sobre el botón */
+}
+.verde{
+	color:green;
+}
+.azul{
+	color:blue;
+}
+.gris{
+	color:#939393;
+}
